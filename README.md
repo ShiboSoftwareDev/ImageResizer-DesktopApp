@@ -1,0 +1,2 @@
+- need to work on alertError function
+- more theory about electron js
