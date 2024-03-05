@@ -5,7 +5,7 @@ const { app, BrowserWindow, Menu, ipcMain, shell } = require("electron");
 const resizeImg = require("resize-img");
 
 const isMac = process.platform === "darwin";
-const isDev = process.env.NODE_ENV !== "production";
+const isDev = true;
 let mainWindow;
 
 async function handleOsHomedir() {
